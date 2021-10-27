@@ -22,7 +22,7 @@ function startHandler() {
   console.log("Server listening at http://localhost:3000");
 }
 
-async function listSongs(req, res) {
+function listSongs(req, res) {
   getAndWriteSongs(res);
 }
 
